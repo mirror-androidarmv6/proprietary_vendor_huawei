@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8150/proprietary/etc/pvplayer.cfg:system/etc/pvplayer.cfg
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/u8150/proprietary/lib/hw/gralloc.msm7k.so:system/lib/hw/gralloc.msm7k.so \
     vendor/huawei/u8150/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
 
 
@@ -49,14 +48,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8150/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
     vendor/huawei/u8150/proprietary/lib/libhwrpc.so:system/lib/libhwrpc.so \
     vendor/huawei/u8150/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/huawei/u8150/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/huawei/u8150/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
     vendor/huawei/u8150/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/huawei/u8150/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/huawei/u8150/proprietary/lib/libmmprocess.so:system/lib/libmmprocess.so \
     vendor/huawei/u8150/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/huawei/u8150/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
-    vendor/huawei/u8150/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/huawei/u8150/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/huawei/u8150/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
     vendor/huawei/u8150/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
