@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8815/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/huawei/u8815/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/huawei/u8815/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/huawei/u8815/proprietary/lib/libdll.so:system/lib/libdll.so \
     vendor/huawei/u8815/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/huawei/u8815/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/huawei/u8815/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
