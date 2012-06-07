@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8815/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/huawei/u8815/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
     vendor/huawei/u8815/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
+    vendor/huawei/u8815/proprietary/lib/libgstk_exp.so:system/lib/libhwdrm1.so \
+    vendor/huawei/u8815/proprietary/lib/libgstk_exp.so:system/lib/libhwdrm1_jni.so \
+    vendor/huawei/u8815/proprietary/lib/libgstk_exp.so:system/lib/libhwnv.so \
+    vendor/huawei/u8815/proprietary/lib/libgstk_exp.so:system/lib/libhwrpc.so \
     vendor/huawei/u8815/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
     vendor/huawei/u8815/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/huawei/u8815/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
