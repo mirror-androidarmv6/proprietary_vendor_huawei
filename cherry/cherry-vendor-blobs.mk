@@ -627,7 +627,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/cherry/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/cherry/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/huawei/cherry/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
