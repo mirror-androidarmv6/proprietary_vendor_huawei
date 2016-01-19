@@ -606,6 +606,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/huawei/cherry/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/huawei/cherry/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/huawei/cherry/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
+    vendor/huawei/cherry/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
