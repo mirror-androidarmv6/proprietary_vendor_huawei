@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -36,7 +36,6 @@ PRODUCT_PACKAGES += \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
-    libHevcSwDecoder \
     libtime_genoff
 
 $(call inherit-product, vendor/huawei/cherry/cherry-vendor-blobs.mk)

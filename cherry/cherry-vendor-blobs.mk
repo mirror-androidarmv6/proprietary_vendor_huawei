@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,10 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/huawei/cherry/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/huawei/cherry/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/huawei/cherry/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/huawei/cherry/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/huawei/cherry/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/huawei/cherry/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/huawei/cherry/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
@@ -63,7 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/huawei/cherry/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/huawei/cherry/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libqcamerasvr-c++.so:system/vendor/lib/libqcamerasvr-c++.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libactuator_a3907.so:system/vendor/lib/libactuator_a3907.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libactuator_a3907_camcorder.so:system/vendor/lib/libactuator_a3907_camcorder.so \
@@ -429,7 +430,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_gc2355_ofilm_ohw2f03.so:system/vendor/lib/libmmcamera_gc2355_ofilm_ohw2f03.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_hi256.so:system/vendor/lib/libmmcamera_hi256.so \
-    vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_imx134.so:system/vendor/lib/libmmcamera_imx134.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
@@ -490,7 +490,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
     vendor/huawei/cherry/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/cherry/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
     vendor/huawei/cherry/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
@@ -500,29 +502,35 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/huawei/cherry/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/huawei/cherry/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/huawei/cherry/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/huawei/cherry/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/huawei/cherry/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/huawei/cherry/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/huawei/cherry/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/huawei/cherry/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/huawei/cherry/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/huawei/cherry/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/huawei/cherry/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/huawei/cherry/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/huawei/cherry/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
@@ -533,17 +541,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/huawei/cherry/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/huawei/cherry/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/huawei/cherry/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/huawei/cherry/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+    vendor/huawei/cherry/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/huawei/cherry/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/huawei/cherry/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/huawei/cherry/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/huawei/cherry/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/huawei/cherry/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/huawei/cherry/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
@@ -552,6 +557,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/huawei/cherry/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/huawei/cherry/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/huawei/cherry/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
+    vendor/huawei/cherry/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -575,7 +582,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/cherry/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/cherry/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/huawei/cherry/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
@@ -585,10 +591,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/huawei/cherry/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
-    vendor/huawei/cherry/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
-    vendor/huawei/cherry/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
-    vendor/huawei/cherry/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/huawei/cherry/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/huawei/cherry/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/huawei/cherry/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -600,8 +603,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/huawei/cherry/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/huawei/cherry/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/huawei/cherry/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/huawei/cherry/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
+    vendor/huawei/cherry/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/huawei/cherry/proprietary/etc/firmware/cherry_gis_fw.img:system/etc/firmware/cherry_gis_fw.img \
     vendor/huawei/cherry/proprietary/etc/firmware/cherry_ofilm_fw.img:system/etc/firmware/cherry_ofilm_fw.img \
     vendor/huawei/cherry/proprietary/etc/firmware/cherry_yassy_fw.img:system/etc/firmware/cherry_yassy_fw.img \
