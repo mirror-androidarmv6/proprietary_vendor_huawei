@@ -259,4 +259,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/huawei/mt2/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+    vendor/huawei/mt2/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/huawei/mt2/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app
