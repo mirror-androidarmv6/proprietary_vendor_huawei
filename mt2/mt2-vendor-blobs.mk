@@ -209,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/huawei/mt2/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/huawei/mt2/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
-    vendor/huawei/mt2/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/huawei/mt2/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/huawei/mt2/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/mt2/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -231,7 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/huawei/mt2/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/mt2/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/mt2/proprietary/bin/radish:system/bin/radish \
