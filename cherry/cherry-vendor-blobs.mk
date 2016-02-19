@@ -580,6 +580,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/cherry/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/huawei/cherry/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/huawei/cherry/proprietary/etc/ons.bin:system/etc/ons.bin \
     vendor/huawei/cherry/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/cherry/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/cherry/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
