@@ -41,35 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libbtpower.so:system/vendor/lib/libbtpower.so \
     vendor/huawei/mt2/proprietary/vendor/lib/liboeminfo.so:system/vendor/lib/liboeminfo.so \
     vendor/huawei/mt2/proprietary/etc/batt_fw.bin:system/etc/batt_fw.bin \
-    vendor/huawei/mt2/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/huawei/mt2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/huawei/mt2/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-    vendor/huawei/mt2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/huawei/mt2/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/huawei/mt2/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/huawei/mt2/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/huawei/mt2/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/huawei/mt2/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/huawei/mt2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/mt2/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/huawei/mt2/proprietary/lib/imedia_filters.so:system/lib/imedia_filters.so \
@@ -169,6 +140,35 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/huawei/mt2/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/huawei/mt2/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/huawei/mt2/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/huawei/mt2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/huawei/mt2/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/huawei/mt2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/huawei/mt2/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/huawei/mt2/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/huawei/mt2/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/huawei/mt2/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/huawei/mt2/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/huawei/mt2/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/huawei/mt2/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/huawei/mt2/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -230,6 +230,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/huawei/mt2/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/huawei/mt2/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/mt2/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/mt2/proprietary/bin/radish:system/bin/radish \
@@ -252,7 +253,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_mate2.bin:system/etc/firmware/cyttsp4_fw_mate2.bin \
-    vendor/huawei/mt2/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
