@@ -23,10 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/huawei/cherry/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/huawei/cherry/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/huawei/cherry/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/huawei/cherry/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/huawei/cherry/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/huawei/cherry/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/huawei/cherry/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -508,7 +508,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/huawei/cherry/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/huawei/cherry/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/huawei/cherry/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
     vendor/huawei/cherry/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/huawei/cherry/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/huawei/cherry/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
@@ -527,7 +531,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/huawei/cherry/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/huawei/cherry/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/huawei/cherry/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/huawei/cherry/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
