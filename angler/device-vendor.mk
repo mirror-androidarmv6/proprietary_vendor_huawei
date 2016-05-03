@@ -29,5 +29,6 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
-    CNEService
+    CNEService \
+    HotwordEnrollment
 
