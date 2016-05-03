@@ -130,4 +130,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/huawei/angler/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/huawei/angler/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
+    vendor/huawei/angler/proprietary/priv-app/HotwordEnrollment/HotwordEnrollment.apk:system/priv-app/HotwordEnrollment/HotwordEnrollment.apk \
     vendor/huawei/angler/proprietary/xbin/wlutil:system/xbin/wlutil
