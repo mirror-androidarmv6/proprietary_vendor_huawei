@@ -35,4 +35,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
+PRODUCT_PACKAGES += \
+    QNfc \
+    com.android.nfc.helper \
+    com.android.qualcomm.qti.nfc_extras \
+    com.vzw.nfc
+
 $(call inherit-product, vendor/huawei/cherry/cherry-vendor-blobs.mk)
