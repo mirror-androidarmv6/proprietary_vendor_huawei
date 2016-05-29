@@ -541,6 +541,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/cherry/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/huawei/cherry/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/huawei/cherry/proprietary/etc/firmware/fused_nvm_c8817d.bin:system/etc/firmware/fused_nvm_c8817d.bin \
+    vendor/huawei/cherry/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
+    vendor/huawei/cherry/proprietary/etc/nfc/hardfault.cfg:system/etc/nfc/hardfault.cfg \
+    vendor/huawei/cherry/proprietary/etc/permissions/com.android.nfc.helper.xml:system/etc/permissions/com.android.nfc.helper.xml \
+    vendor/huawei/cherry/proprietary/etc/permissions/com.android.qualcomm.qti.nfc_extras.xml:system/etc/permissions/com.android.qualcomm.qti.nfc_extras.xml \
+    vendor/huawei/cherry/proprietary/etc/permissions/com.vzw.nfc.xml:system/etc/permissions/com.vzw.nfc.xml \
+    vendor/huawei/cherry/proprietary/vendor/lib/libqnfc-nci.so:system/vendor/lib/libqnfc-nci.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libqnfc_nci_jni.so:system/vendor/lib/libqnfc_nci_jni.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/hw/nfc_nci.qc199x.default.so:system/vendor/lib/hw/nfc_nci.qc199x.default.so \
     vendor/huawei/cherry/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/huawei/cherry/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/huawei/cherry/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
