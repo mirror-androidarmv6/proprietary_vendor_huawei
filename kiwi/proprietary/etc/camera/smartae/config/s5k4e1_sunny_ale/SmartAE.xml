@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AEConfig>
+    <FaceAE>
+	<!--face AE parameters-->
+    <minArea>3000</minArea>                                                     <!--faceAE启动的最小人脸面积-->
+    <darkThreshold>110</darkThreshold>                                           <!--人脸亮度下限，当人脸亮度小于此值，会提高人脸亮度。一般主要调节此参数-->
+    <brightThreshold>130</brightThreshold>                                      <!--人脸亮度上限，当人脸亮度大于此值，会降低人脸亮度-->
+    <verydarkThreshold>90</verydarkThreshold>                                   <!--低于此亮度值会加快target调整step-->
+    <verybrightThreshold>140</verybrightThreshold>                              <!--高于此亮度值会加快target调整step-->
+    <lowTarget_MAX>140</lowTarget_MAX>                                          <!--AE low target 最大值-->
+    <highTarget_MAX>140</highTarget_MAX>                                        <!--AE high target 最大值-->
+    <lowTarget_MIN>30</lowTarget_MIN>                                           <!--AE low target 最小值-->
+    <highTarget_MIN>30</highTarget_MIN>                                         <!--AE high target 最小值-->
+    <overExpoThreshold>50</overExpoThreshold>                                   <!--场景中过曝比例上限，高于此值，target停止调整。-->
+    <underExpoThreshold>50</underExpoThreshold>                                 <!--场景中欠曝比例上限，高于此值，target停止调整。-->
+    </FaceAE>
+    <HistAE>
+	           <!--over expo and under expo parameters-->
+               <OVEREXPO_2UnStable_TH>5000</OVEREXPO_2UnStable_TH>              <!--过曝面积大于此值(x)时，百分比为x/51200，开始调整曝光，减少过曝，减少此值会使过曝控制更严格，画面会偏暗-->
+               <OVEREXPO_2Stable_TH>4000</OVEREXPO_2Stable_TH>                  <!--过曝面积小于等于此值(x)时，百分比为x/51200，停止调整曝光，此值应跟OVEREXPO_2UnStable_TH同时调整，趋势相同-->
+               <UNDEREXPO_2UnStable_TH>3000</UNDEREXPO_2UnStable_TH>            <!--欠曝面积大于此值(x)时，百分比为x/51200，开始调整曝光，减少欠曝，减少此值会使欠曝控制更严格，画面会偏亮-->
+               <UNDEREXPO_2Stable_TH>1500</UNDEREXPO_2Stable_TH>                <!--欠曝面积小于等于此值(x)时，百分比为x/51200，停止调整曝光，此值应跟UNDEREXPO_2UnStable_TH同时调整，趋势相同-->
+               <EXPO_ISO_TH>400</EXPO_ISO_TH>                                   <!--当ISO小于等于此值时，过曝欠曝的控制参数使用上面四个数值，大于此值时使用下面四个数值（后缀有_Dark）-->
+               <OVEREXPO_2UnStable_TH_Dark>4000</OVEREXPO_2UnStable_TH_Dark>    <!--以下四个参数的意义跟上面四个参数相同-->
+               <OVEREXPO_2Stable_TH_Dark>2500</OVEREXPO_2Stable_TH_Dark>
+               <UNDEREXPO_2UnStable_TH_Dark>3000</UNDEREXPO_2UnStable_TH_Dark>
+               <UNDEREXPO_2Stable_TH_Dark>1500</UNDEREXPO_2Stable_TH_Dark>
+               <MULTIPLE>2</MULTIPLE>                                           <!--比例因子，一般不需修改-->
+               <EMPTYBIN_2Stable>6</EMPTYBIN_2Stable>                           <!--当亮度直方图右端空白的bin个数小于等于此值时，停止调整曝光--> 
+               <EMPTYBIN_2UnStable>10</EMPTYBIN_2UnStable>                      <!--当亮度直方图右端空白的bin个数大于此值时，开始调整曝光，画面变亮-->
+               
+			   <!--default config parameters-->
+			   <!--low target和high target对应OVISP的相应设置。对于高通平台，因为同时只有一个target生效，因此这两个项目需要设置成相同值-->
+               <targetLowMin_Default>55</targetLowMin_Default>                  <!--low target最小值-->
+               <targetLowMax_Default>57</targetLowMax_Default>                  <!--low target最大值-->
+               <targetHighMin_Default>55</targetHighMin_Default>                <!--hight target最小值-->
+               <targetHighMax_Default>57</targetHighMax_Default>                <!--hight target最大值-->
+               
+			   <!--night config parameters-->  <!--参数含义同上-->
+               <targetLowMin_Night>50</targetLowMin_Night>                   
+               <targetLowMax_Night>54</targetLowMax_Night>
+               <targetHighMin_Night>50</targetHighMin_Night>
+               <targetHighMax_Night>54</targetHighMax_Night>
+               
+			   <!--indoor config parameters-->  <!--参数含义同上-->
+               <targetLowMin_Indoor>54</targetLowMin_Indoor>
+               <targetLowMax_Indoor>56</targetLowMax_Indoor>
+               <targetHighMin_Indoor>54</targetHighMin_Indoor>
+               <targetHighMax_Indoor>56</targetHighMax_Indoor>
+
+			   <!--nightlight config parameters-->  <!--参数含义同上-->
+               <targetLowMin_NightLight>30</targetLowMin_NightLight>
+               <targetLowMax_NightLight>30</targetLowMax_NightLight>
+               <targetHighMin_NightLight>30</targetHighMin_NightLight>
+               <targetHighMax_NightLight>30</targetHighMax_NightLight>
+               <targetLow_NightLight>30</targetLow_NightLight>                   <!--nightlight场景下的默认low target-->
+               <targetHigh_NightLight>30</targetHigh_NightLight>                 <!--nightlight场景下的默认hight target-->
+               
+			   <!--以下参数用于判断当前的场景类别，一般不需调整-->
+			   
+			   <!--lv=ISO*曝光时间.越大表示越暗--> 
+			    <!--is night parameters-->
+               <LvDefault2Night>75</LvDefault2Night>                   <!--门限，进入night的范围.越大表示越暗-->            
+               <LvNight2Default>20</LvNight2Default>                   <!--门限，退出night的范围-->          
+                
+				<!--is indoor-->
+                <LvDefault2IndoorMin>4</LvDefault2IndoorMin>       <!--门限，进入indoor的范围-->               
+                <LvDefault2IndoorMax>45</LvDefault2IndoorMax>       <!--门限，进入indoor的范围-->  
+                <LvIndoor2DefaultMin>1</LvIndoor2DefaultMin>        <!--门限，退出indoor的范围-->               
+                <LvIndoor2DefaultMax>55</LvIndoor2DefaultMax>	  <!--门限，退出indoor的范围--> 
+                
+				<!--is nightlight parameters-->
+                <mid2over_HLIGHTR>10</mid2over_HLIGHTR>      <!--过曝面积百分比最大值，越大越难进入-->
+                <over2mid_HLIGHTR>6</over2mid_HLIGHTR>       <!--过曝面积百分比最小值-->
+                <mid2over_MLIGHTR>300</mid2over_MLIGHTR>     <!--过曝面积直方图面积，越小越难进入-->
+                
+				<!--ChOverExpoProtection parameters-->
+                <OVEREXPO_CH_TH>20000</OVEREXPO_CH_TH>   <!--暂时无用-->
+                <OVEREXPO_SKY>18000</OVEREXPO_SKY>       <!--暂时无用-->
+    </HistAE>
+    <UIEVComp>
+                <UIEVComp_EV1>7</UIEVComp_EV1>
+                <UIEVComp_EV2>16</UIEVComp_EV2>
+                <UIEVComp_EV3>85</UIEVComp_EV3>
+                <UIEVComp_EV4>120</UIEVComp_EV4>
+    </UIEVComp>
+</AEConfig>
