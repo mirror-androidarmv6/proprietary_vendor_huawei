@@ -176,7 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
