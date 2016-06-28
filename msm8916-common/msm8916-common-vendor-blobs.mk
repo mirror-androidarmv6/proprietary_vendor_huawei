@@ -563,7 +563,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm8916-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/huawei/msm8916-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/huawei/msm8916-common/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
-    vendor/huawei/msm8916-common/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
