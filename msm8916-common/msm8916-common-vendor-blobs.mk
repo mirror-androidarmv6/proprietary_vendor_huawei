@@ -611,6 +611,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm8916-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/huawei/msm8916-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/huawei/msm8916-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/huawei/msm8916-common/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/msm8916-common/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/msm8916-common/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/huawei/msm8916-common/proprietary/etc/firmware/cherry_gis_fw.img:system/etc/firmware/cherry_gis_fw.img \
