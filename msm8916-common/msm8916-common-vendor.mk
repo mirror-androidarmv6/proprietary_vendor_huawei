@@ -38,4 +38,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
+PRODUCT_PACKAGES += \
+    libhuawei_secure \
+    liboeminfo_oem_api
+
+PRODUCT_PACKAGES += \
+    libqmi_oem_api
+
 $(call inherit-product, vendor/huawei/msm8916-common/msm8916-common-vendor-blobs.mk)
