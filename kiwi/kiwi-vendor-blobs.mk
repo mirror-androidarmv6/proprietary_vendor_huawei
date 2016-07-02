@@ -1525,12 +1525,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/lib/liboeminfo_oem_api.so:system/lib/liboeminfo_oem_api.so \
     vendor/huawei/kiwi/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/kiwi/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
-    vendor/huawei/kiwi/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
     vendor/huawei/kiwi/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
     vendor/huawei/kiwi/proprietary/lib64/liboeminfo_oem_api.so:system/lib64/liboeminfo_oem_api.so \
     vendor/huawei/kiwi/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
     vendor/huawei/kiwi/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
-    vendor/huawei/kiwi/proprietary/lib64/libqmi_oem_api.so:system/lib64/libqmi_oem_api.so \
     vendor/huawei/kiwi/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/huawei/kiwi/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/huawei/kiwi/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \

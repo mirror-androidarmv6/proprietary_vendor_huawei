@@ -36,4 +36,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtfa9895
 
+PRODUCT_PACKAGES += \
+    libqmi_oem_api
+
 $(call inherit-product, vendor/huawei/kiwi/kiwi-vendor-blobs.mk)
