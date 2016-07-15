@@ -1385,8 +1385,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/huawei/kiwi/proprietary/bin/location-mq:system/bin/location-mq \
+    vendor/huawei/kiwi/proprietary/bin/garden_app:system/bin/garden_app \
+    vendor/huawei/kiwi/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/huawei/kiwi/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/huawei/kiwi/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/huawei/kiwi/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/huawei/kiwi/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
@@ -1398,6 +1403,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -1422,8 +1428,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib64/egl/libRBGLESv1_CM_adreno.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
@@ -1456,15 +1460,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/huawei/kiwi/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/huawei/kiwi/proprietary/lib64/hw/keystore.qcom.so:system/lib64/hw/keystore.qcom.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib64/hw/keystore.msm8916.so:system/vendor/lib64/hw/keystore.msm8916.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -1512,7 +1513,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/huawei/kiwi/proprietary/ons.bin:system/ons.bin \
+    vendor/huawei/kiwi/proprietary/global/ons/ons.bin:system/global/ons/ons.bin \
     vendor/huawei/kiwi/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/huawei/kiwi/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/kiwi/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -1522,11 +1523,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/kiwi/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/kiwi/proprietary/lib/libhuawei_secure.so:system/lib/libhuawei_secure.so \
-    vendor/huawei/kiwi/proprietary/lib/liboeminfo_oem_api.so:system/lib/liboeminfo_oem_api.so \
+    vendor/huawei/kiwi/proprietary/lib/lib_oeminfo_interface.so:system/lib/lib_oeminfo_interface.so \
     vendor/huawei/kiwi/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/kiwi/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
     vendor/huawei/kiwi/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
-    vendor/huawei/kiwi/proprietary/lib64/liboeminfo_oem_api.so:system/lib64/liboeminfo_oem_api.so \
+    vendor/huawei/kiwi/proprietary/lib64/lib_oeminfo_interface.so:system/lib64/lib_oeminfo_interface.so \
     vendor/huawei/kiwi/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
     vendor/huawei/kiwi/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
     vendor/huawei/kiwi/proprietary/lib64/libril.so:system/lib64/libril.so \
@@ -1551,15 +1552,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary//sbin/hdbd:root//sbin/hdbd \
     vendor/huawei/kiwi/proprietary//sbin/huawei_mmc_monitor:root//sbin/huawei_mmc_monitor \
     vendor/huawei/kiwi/proprietary//sbin/huawei_version:root//sbin/huawei_version \
-    vendor/huawei/kiwi/proprietary//sbin/hw_scsi_switch:root//sbin/hw_scsi_switch \
     vendor/huawei/kiwi/proprietary//sbin/libqmi_oem_main:root//sbin/libqmi_oem_main \
     vendor/huawei/kiwi/proprietary//sbin/rmt_oeminfo:root//sbin/rmt_oeminfo \
     vendor/huawei/kiwi/proprietary//sbin/rmt_storage:root//sbin/rmt_storage \
-    vendor/huawei/kiwi/proprietary//sbin/usb_update:root//sbin/usb_update \
-    vendor/huawei/kiwi/proprietary/bin/oeminfo_server:system/bin/oeminfo_server \
     vendor/huawei/kiwi/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
-    vendor/huawei/kiwi/proprietary/lib/libdmd_report.so:system/lib/libdmd_report.so \
-    vendor/huawei/kiwi/proprietary/lib64/libdmd_report.so:system/lib64/libdmd_report.so \
+    vendor/huawei/kiwi/proprietary/lib/libdmd.so:system/lib/libdmd.so \
+    vendor/huawei/kiwi/proprietary/lib64/libdmd.so:system/lib64/libdmd.so \
     vendor/huawei/kiwi/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/huawei/kiwi/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
