@@ -1390,11 +1390,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/kiwi/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
     vendor/huawei/kiwi/proprietary//sbin/signinfolistener:root//sbin/signinfolistener \
-    vendor/huawei/kiwi/proprietary/fpc-fw/fingerpr.b00:system/fpc-fw/fingerpr.b00 \
-    vendor/huawei/kiwi/proprietary/fpc-fw/fingerpr.b01:system/fpc-fw/fingerpr.b01 \
-    vendor/huawei/kiwi/proprietary/fpc-fw/fingerpr.b02:system/fpc-fw/fingerpr.b02 \
-    vendor/huawei/kiwi/proprietary/fpc-fw/fingerpr.b03:system/fpc-fw/fingerpr.b03 \
-    vendor/huawei/kiwi/proprietary/fpc-fw/fingerpr.mdt:system/fpc-fw/fingerpr.mdt \
     vendor/huawei/kiwi/proprietary/vendor/lib64/hw/gatekeeper.msm8916.so:system/vendor/lib64/hw/gatekeeper.msm8916.so \
     vendor/huawei/kiwi/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/huawei/kiwi/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
