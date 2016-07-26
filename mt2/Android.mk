@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+# http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -16,36 +16,37 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter mt2,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),mt2)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := com.qualcomm.location
+LOCAL_MODULE := qcrilmsgtunnel
 LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
+LOCAL_SRC_FILES := proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := qcrilmsgtunnel
+LOCAL_MODULE := com.qualcomm.location
 LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
+LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk
 LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -53,9 +54,8 @@ LOCAL_MODULE := qcnvitems
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/framework/qcnvitems.jar
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -63,10 +63,8 @@ LOCAL_MODULE := qcrilhook
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 endif
-
