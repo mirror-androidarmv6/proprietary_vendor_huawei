@@ -555,7 +555,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm8916-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/msm8916-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/huawei/msm8916-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/huawei/msm8916-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/huawei/msm8916-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/msm8916-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/huawei/msm8916-common/proprietary/bin/vm_bms:system/bin/vm_bms \
@@ -587,6 +586,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm8916-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/huawei/msm8916-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/huawei/msm8916-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+    vendor/huawei/msm8916-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/huawei/msm8916-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/huawei/msm8916-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/huawei/msm8916-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
