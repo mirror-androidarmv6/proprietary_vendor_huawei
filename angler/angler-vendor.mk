@@ -106,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/huawei/angler/proprietary/lib64/libManufacture.so:system/lib64/libManufacture.so \
     vendor/huawei/angler/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
-    vendor/huawei/angler/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
     vendor/huawei/angler/proprietary/lib/hw/gps.msm8994.so:system/lib/hw/gps.msm8994.so \
     vendor/huawei/angler/proprietary/lib/hw/nfc_nci.angler.so:system/lib/hw/nfc_nci.angler.so \
     vendor/huawei/angler/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
